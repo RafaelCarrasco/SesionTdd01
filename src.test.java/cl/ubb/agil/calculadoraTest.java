@@ -22,5 +22,11 @@ public class calculadoraTest {
 		int resultado = cal.suma(-1, 7);
 		assertThat(resultado,is(6));
 	}
+	@Test
+	public void RestaDocientoYSeteitaYTresEsCientoVentiYSiete(){
+		calculadora cal=new calculadora();
+		int resultado = cal.resta(200,73);
+		assertThat(resultado,is(127));
+	}
 
 }
