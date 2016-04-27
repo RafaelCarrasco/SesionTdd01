@@ -6,8 +6,8 @@ public class calculadora {
 		
 	}
 	public int suma(int num1, int num2){
-		
-		return 5;
+		int resultado =num1 +num2;
+		return resultado;
 	}
 	
 }
